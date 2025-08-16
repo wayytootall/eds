@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    background: #f8fafc;
+  }
+  
+  body {
+    font-family: 'IBM Plex Sans', 'Inter', system-ui, sans-serif;
+    background: #f8fafc;
+    color: #1e293b;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-gradient-to-r from-primary-500 to-accent-500 hover:from-accent-600 hover:to-primary-600 text-white font-bold py-4 px-8 rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-2xl shadow-lg tracking-wide uppercase;
+  }
+  
+  .btn-secondary {
+    @apply bg-white hover:bg-secondary-100 text-primary-600 font-semibold py-4 px-8 rounded-xl transition-all duration-300 border-2 border-primary-200 hover:border-primary-400 hover:shadow-lg tracking-wide uppercase;
+  }
+  
+  .btn-accent {
+    @apply bg-gradient-to-r from-accent-500 to-primary-500 hover:from-primary-600 hover:to-accent-600 text-white font-bold py-4 px-8 rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-2xl shadow-lg tracking-wide uppercase;
+  }
+  
+  .section-padding {
+    @apply py-20 px-4 sm:px-6 lg:px-8;
+  }
+  
+  .container-custom {
+    @apply max-w-7xl mx-auto;
+  }
+  
+  .gradient-bg {
+    @apply bg-gradient-to-br from-primary-50 via-white to-accent-50;
+  }
+  
+  .card-hover {
+    @apply transition-all duration-300 hover:transform hover:scale-105 hover:shadow-2xl;
+  }
+  
+  .text-gradient {
+    @apply bg-gradient-to-r from-primary-600 to-accent-600 bg-clip-text text-transparent;
+  }
+} 
