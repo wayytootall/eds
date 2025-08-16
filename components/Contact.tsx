@@ -166,7 +166,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="text-xl font-bold text-secondary-900 mb-2">Call Us</h4>
-                  <p className="text-secondary-600 text-lg">+1 (555) 123-4567</p>
+                  <p className="text-secondary-600 text-lg">+1 (575) 313-1029</p>
                   <p className="text-secondary-600 text-base">Mon-Fri: 9AM-6PM EST</p>
                 </div>
               </div>
@@ -175,11 +175,7 @@ export default function Contact() {
                 <div className="w-14 h-14 bg-gradient-to-br from-success-400 to-success-600 rounded-2xl flex items-center justify-center flex-shrink-0 shadow-lg">
                   <MapPin className="w-7 h-7 text-white" />
                 </div>
-                <div>
-                  <h4 className="text-xl font-bold text-secondary-900 mb-2">Visit Us</h4>
-                  <p className="text-secondary-600 text-lg">123 Digital Avenue</p>
-                  <p className="text-secondary-600 text-lg">Tech City, TC 12345</p>
-                </div>
+
               </div>
               
               <div className="flex items-start gap-5">
