@@ -6,8 +6,8 @@ import { Check, Star, Zap } from 'lucide-react'
 const plans = [
   {
     name: 'Starter',
-    price: '$2,499',
-    period: 'one-time',
+    price: '$500',
+    period: 'variable',
     description: 'Perfect for small businesses starting their digital journey',
     features: [
       'Custom website design & development',
@@ -23,9 +23,9 @@ const plans = [
     color: 'border-secondary-200'
   },
   {
-    name: 'Professional',
-    price: '$4,999',
-    period: 'one-time',
+    name: 'Growth',
+    price: '$2,000',
+    period: 'variable',
     description: 'Ideal for growing businesses with advanced digital needs',
     features: [
       'Custom website design & development',
@@ -44,8 +44,8 @@ const plans = [
   },
   {
     name: 'Enterprise',
-    price: '$9,999',
-    period: 'one-time',
+    price: 'Contact for pricing',
+    period: 'variable',
     description: 'Comprehensive solutions for established businesses',
     features: [
       'Custom website design & development',
