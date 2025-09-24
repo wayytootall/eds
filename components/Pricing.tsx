@@ -44,7 +44,7 @@ const plans = [
   },
   {
     name: 'Enterprise',
-    price: 'Contact for pricing',
+    price: 'Contact',
     period: 'variable',
     description: 'Comprehensive solutions for established businesses',
     features: [
